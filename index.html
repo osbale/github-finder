@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+      integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>G!tHub. Search</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light p-4">
+      <div class="container-fluid">
+        <h1 class="display-6 font-weight-bold"><span class="text-info">G!tHub</span> Search</h1>
+      </div>
+    </nav>
+
+    <div class="container searchContainer mt-5">
+      <div class="search card card-body">
+        <h1>Search <span class="font-weight-bold text-info">GitHub</span> Users</h1>
+        <p class="lead">Enter a username to fetch a user profile and repos</p>
+        <input
+          type="text"
+          id="searchUser"
+          class="form-control"
+          placeholder="GitHub Username..."
+        />
+        <br />
+        <div id="profile"></div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="navbar navbar-light bg-light fixed-bottom pt-4">
+          <p class="mx-auto font-weight-bold" style="width: 130px"><span class="text-info">G!thub</span> Search &copy</p>
+      </div>
+    </footer>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+      integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Github.js"></script>
+    <script src="./UI.js"></script>
+    <script src="./App.js"></script>
+  </body>
+</html>
